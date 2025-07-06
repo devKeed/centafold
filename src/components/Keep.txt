@@ -1,0 +1,11 @@
+<main className="mt-16">
+        <section id="services" className="h-screen bg-paleBlue">Services Section</section>
+        <section id="about" className="h-screen bg-gray-200">About Us Section</section>
+        <section id="team" className="h-screen bg-gray-300">Team Section</section>
+        <section id="contact" className="h-screen bg-gray-400">Contact Us Section</section>
+      </main>
+
+
+      hamburger linkedin stuff
+
+      https://codepen.io/Zeindelf/pen/vZbyEg for portfolio button

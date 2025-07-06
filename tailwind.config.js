@@ -1,0 +1,61 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: [
+          '"PP Neue Montreal"',
+          "system-ui",
+          "-apple-system",
+          "BlinkMacSystemFont",
+          '"Segoe UI"',
+          "Roboto",
+          '"Helvetica Neue"',
+          "Arial",
+          "sans-serif",
+        ],
+        montreal: [
+          '"PP Neue Montreal"',
+          "system-ui",
+          "-apple-system",
+          "BlinkMacSystemFont",
+          '"Segoe UI"',
+          "Roboto",
+          '"Helvetica Neue"',
+          "Arial",
+          "sans-serif",
+        ],
+      },
+      fontWeight: {
+        thin: "100",
+        normal: "400",
+        medium: "500",
+        semibold: "600",
+        bold: "700",
+      },
+      colors: {
+        button: "#00569E",
+        lightBlue: "#00B5F8",
+        paleBlue: "#C6E5FF",
+        mistyBlue: "#B4E8FB",
+        buttonHover: "#002960",
+        background: {
+          metrics: "#00569E",
+          partners: "#00569E",
+          clients: "#00569E",
+          hero: "#DBF4FD",
+          ourTeam: "#DBF4FD",
+          contactUs: "#DBF4FD",
+          faq: "#DBF4FD",
+          aboutUs: "#F4F6FC",
+          whyChooseUs: "#F4F6FC",
+          testimonial: "#F4F6FC",
+          footer: "#002960",
+        },
+      },
+    },
+  },
+  variants: {},
+  plugins: [],
+};

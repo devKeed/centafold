@@ -1,0 +1,115 @@
+/* PP Neue Montreal Font Family */
+@font-face {
+  font-family: "PP Neue Montreal";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: local("PP Neue Montreal Thin"),
+    url("./assets/fonts/ppneuemontreal-thin.woff") format("woff");
+}
+
+@font-face {
+  font-family: "PP Neue Montreal";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("PP Neue Montreal Book"),
+    url("./assets/fonts/ppneuemontreal-book.woff") format("woff");
+}
+
+@font-face {
+  font-family: "PP Neue Montreal";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local("PP Neue Montreal Italic"),
+    url("./assets/fonts/ppneuemontreal-italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "PP Neue Montreal";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local("PP Neue Montreal Medium"),
+    url("./assets/fonts/ppneuemontreal-medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "PP Neue Montreal";
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: local("PP Neue Montreal SemiBold Italic"),
+    url("./assets/fonts/ppneuemontreal-semibolditalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "PP Neue Montreal";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("PP Neue Montreal Bold"),
+    url("./assets/fonts/ppneuemontreal-bold.woff") format("woff");
+}
+
+/* Fallback font classes */
+.font-thin {
+  font-family: "PP Neue Montreal", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 100;
+}
+
+.font-normal {
+  font-family: "PP Neue Montreal", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 400;
+}
+
+.font-medium {
+  font-family: "PP Neue Montreal", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 500;
+}
+
+.font-bold {
+  font-family: "PP Neue Montreal", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 700;
+}
+
+/* Additional utility classes for consistent font application */
+.montreal-bold {
+  font-family: "PP Neue Montreal", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 700 !important;
+}
+
+.montreal-semibold {
+  font-family: "PP Neue Montreal", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 600 !important;
+}
+
+/* Ensure headers use the correct bold font */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "PP Neue Montreal", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+}
+
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}

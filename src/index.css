@@ -1,0 +1,210 @@
+@import "./fonts.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "PP Neue Montreal", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 500;
+  background-color: #f4f6fc;
+}
+
+.sub-header {
+  max-width: 517px;
+  font-size: 40px;
+  font-family: "PP Neue Montreal", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 700;
+  line-height: 46px;
+}
+
+.link {
+  position: relative;
+  transition: all 300ms ease-in-out;
+}
+
+.link::before,
+.link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: #00b5f8;
+  transition: width 300ms ease-in-out;
+}
+
+.link::before {
+  top: 0;
+  left: 0;
+}
+
+.link::after {
+  bottom: 0;
+  right: 0;
+}
+
+.link:hover::before {
+  width: 100%;
+}
+
+.link:hover::after {
+  width: 100%;
+}
+
+/* button {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #00b5f8;
+  cursor: pointer;
+  overflow: hidden;
+  transition: color 300ms ease-in-out, background-color 300ms ease-in-out;
+}
+
+button::before,
+button::after {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  background-color: #00b5f8;
+  transition: all 500ms ease-in-out;
+  transform: translate(0%, 30%) scale(0);
+}
+
+button::before {
+  z-index: 1;
+}
+
+button:hover::before,
+button:hover::after {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+button:hover {
+  background-color: #002960;
+  color: #fff;
+}
+
+button-text {
+  position: relative;
+  z-index: 2;
+} */
+
+/* images */
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  display: block;
+  position: relative;
+  z-index: 1;
+  width: 80%;
+  transition: all 0.9s ease-in-out;
+}
+
+.image-shadow {
+  width: 80%;
+  height: 100%;
+  background-color: #00569e;
+  transition: all 0.9s ease-in-out;
+  z-index: 0;
+}
+
+.image-container:hover img {
+  transform: translate(15px, 15px);
+}
+
+p {
+  font-size: 16px !important;
+  line-height: 22px !important;
+}
+
+h1 {
+  font-size: 56px !important;
+  line-height: 60px !important;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 46px !important;
+    line-height: 60px !important;
+  }
+}
+
+.partners {
+  font-size: 14px !important;
+  line-height: 16px !important;
+}
+
+@media (maxwidth: 600px) {
+  .partners {
+    font-size: 12px !important;
+    line-height: 14px !important;
+  }
+}
+
+/* CSS for the transitions and animations */
+
+.menu-enter {
+  opacity: 0;
+  transform: translateY(-10%);
+}
+
+.menu-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.menu-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.menu-exit-active {
+  opacity: 0;
+  transform: translateY(-10%);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.svg-icon {
+  transition: transform 300ms;
+}
+
+.svg-icon.open {
+  transform: rotate(270deg);
+}
+
+.svg-icon.close {
+  transform: rotate(0deg);
+}
+
+.header-container {
+  /* box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2),
+    -10px -10px 30px rgba(255, 255, 255, 0.2); */
+  backdrop-filter: blur(30px);
+  background: rgba(0, 0, 0, 0);
+  position: fixed;
+  z-index: 4;
+}
+
+.hero-container {
+  padding-top: 112px;
+}
