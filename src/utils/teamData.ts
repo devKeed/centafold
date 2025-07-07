@@ -1,6 +1,6 @@
 import teamMember1 from "/images/team_01.webp";
 import teamMember2 from "/images/team_02.webp";
-import teamMember3 from "/images/team_03.webp";
+import teamMember3 from "/images/team_03.jpeg";
 import teamMember4 from "/images/team_04.webp";
 import teamMember5 from "/images/team_05.webp";
 import teamMember6 from "/images/team_06.webp";
@@ -29,11 +29,11 @@ export const teamMembers: TeamMember[] = [
       "https://www.linkedin.com/in/olusade-paul-rotua-acipm-acipd-gphr-hrl-8b63239/",
   },
   {
-    name: "Doubra Oluwatominiyi",
+    name: "Edward Fagbohun",
     designation: "Senior Business Consultant",
     image: `${teamMember3}`,
     linkedin:
-      "https://www.linkedin.com/in/doubraoluwatominiyi?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "https://www.linkedin.com/in/edward-fagbohun-5b1b531b/?trk=public-profile-join-page",
   },
   {
     name: "Chioma Jennifer",

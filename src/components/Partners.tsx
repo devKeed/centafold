@@ -62,13 +62,13 @@ const PartnersClients = () => {
             {partners.map((partner, index) => (
               <div
                 key={index}
-                className="flex px-4 justify-center items-center "
+                className="flex px-4 justify-center items-center overflow-hidden"
               >
-                <div className="bg-white rounded-md w-32 sm:w-48 h-16 sm:h-24 flex justify-center items-center">
+                <div className="bg-white overflow-hidden p-4 rounded-md w-32 sm:w-48 h-16 sm:h-24 flex justify-center items-center">
                   <img
                     src={partner.logo}
                     alt={partner.name}
-                    className="w-24 sm:w-auto h-auto object-contain"
+                    className="w-24 sm:w-auto h-auto object-contain max-w-[90%] max-h-[99%] mx-auto"
                   />
                 </div>
                 <p className="text-white mt-2 mr-6 text-xs sm:text-sm partners">
