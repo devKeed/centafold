@@ -21,7 +21,7 @@ export const contactDetails: ContactDetail[] = [
   {
     icon: faEnvelope,
     label: "Send us a mail",
-    info: "info@centafold.com",
+    info: "ufoma@centafold.com, Services@centafold.com",
   },
   {
     icon: faWhatsapp,
