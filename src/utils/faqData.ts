@@ -7,7 +7,7 @@ export const faqs: FAQ[] = [
   {
     question: "How can I book a training session with Centafold Consult?",
     answer:
-      "You can book a training session by contacting us through our website at www.centafold.com, calling us at +234-803-368-9454, or emailing us at info@centafold.com. Our team will guide you through the booking process.",
+      "You can book a training session by contacting us through our website at www.centafold.com, calling us at +234-803-368-9454, or emailing us at ufoma@centafold.com or Services@centafold.com. Our team will guide you through the booking process.",
   },
   {
     question: "What types of training programs are available?",
