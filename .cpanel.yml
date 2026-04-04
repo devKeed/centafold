@@ -1,7 +1,8 @@
+---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/${CPANEL_USER}/public_html
+    - export DEPLOYPATH=/home/centafol/public_html
     - /usr/local/bin/npm ci
     - /usr/local/bin/npm run build
-    - /bin/rm -rf ${DEPLOYPATH}/*
-    - /bin/cp -R dist/* ${DEPLOYPATH}
+    - /bin/rm -rf "$DEPLOYPATH"/*
+    - /bin/cp -R dist/* "$DEPLOYPATH"/
